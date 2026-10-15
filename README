@@ -1,0 +1,18 @@
+QHDB: A key-value database
+
+Commands:
+1) SET <key> <value>
+  - Sets a value for a key. 
+  - If the key already exists, its value is updated
+  - Example: SET name Alice
+2) GET <key>
+  - Retrieves the value associated with a key.
+  - Return NOT FOUND if the key does not exist
+  - Example: GET name
+3) DELETE <key>
+  - Deletes a key and its associated value
+  - Return NOT FOUND if the key does not exist
+  - Example: DELETE name
+4) EXIT
+  - Exists the program
+  - Example: EXIT
